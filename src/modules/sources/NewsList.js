@@ -48,7 +48,13 @@ class SourceList extends React.Component {
           return (
             <Card key={source.id}>
               <Card.Content>
-                <Image src={source.urlToImage} />
+                <Image
+                  src={
+                    source.urlToImage
+                      ? source.urlToImage
+                      : `${dariSemantic}/images/avatar/large/matthew.png`
+                  }
+                />
 
                 <Card.Description>{source.title}</Card.Description>
               </Card.Content>
