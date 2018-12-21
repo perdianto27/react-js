@@ -1,4 +1,5 @@
 Tech:
 - React Js
+- React Router
 - Axios
-- semantecui
+- Semantic UI
